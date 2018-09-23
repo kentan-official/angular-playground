@@ -81,7 +81,7 @@
     "@angular-devkit/core" "0.7.5"
     rxjs "^6.0.0"
 
-"@angular-devkit/core@0.7.5", "@angular-devkit/core@^0.7.2":
+"@angular-devkit/core@0.7.5":
   version "0.7.5"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.7.5.tgz#49f7854ccadf3ddda8d0ea4359543a1cbdc6854d"
   dependencies:
@@ -90,12 +90,28 @@
     rxjs "^6.0.0"
     source-map "^0.5.6"
 
-"@angular-devkit/schematics@0.7.5", "@angular-devkit/schematics@^0.7.2":
+"@angular-devkit/core@0.8.3", "@angular-devkit/core@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.8.3.tgz#a7158195dc90997de62ec0b12af3325870182c3b"
+  dependencies:
+    ajv "~6.4.0"
+    chokidar "^2.0.3"
+    rxjs "~6.2.0"
+    source-map "^0.5.6"
+
+"@angular-devkit/schematics@0.7.5":
   version "0.7.5"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.7.5.tgz#f46b121f29cb40ad6095285d27a515114a56c5d6"
   dependencies:
     "@angular-devkit/core" "0.7.5"
     rxjs "^6.0.0"
+
+"@angular-devkit/schematics@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.8.3.tgz#32f2e99b43c39864ec63301963329c9190d7c5d2"
+  dependencies:
+    "@angular-devkit/core" "0.8.3"
+    rxjs "~6.2.0"
 
 "@angular/animations@^6.1.0":
   version "6.1.6"
@@ -263,12 +279,12 @@
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@kentan-official/core/-/core-2.0.3.tgz#903daa5b477efdc55d5b90efb5aca19f735a1950"
 
-"@kentan-official/schematics@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@kentan-official/schematics/-/schematics-2.0.6.tgz#0a04d6611e5ced195e758fd4d4916fa10bbc43bd"
+"@kentan-official/schematics@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@kentan-official/schematics/-/schematics-2.0.7.tgz#eaeefb33946f39e7d4908eb5a312454513d99780"
   dependencies:
-    "@angular-devkit/core" "^0.7.2"
-    "@angular-devkit/schematics" "^0.7.2"
+    "@angular-devkit/core" "^0.8.3"
+    "@angular-devkit/schematics" "^0.8.3"
     find "^0.2.9"
     injection-js "^2.2.1"
     reflect-metadata "^0.1.12"
@@ -5125,6 +5141,12 @@ run-queue@^1.0.0, run-queue@^1.0.3:
 rxjs@^6.0.0:
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.3.1.tgz#878a1a8c64b8a5da11dcf74b5033fe944cdafb84"
+  dependencies:
+    tslib "^1.9.0"
+
+rxjs@~6.2.0:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.2.2.tgz#eb75fa3c186ff5289907d06483a77884586e1cf9"
   dependencies:
     tslib "^1.9.0"
 
